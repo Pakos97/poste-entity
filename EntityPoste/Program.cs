@@ -7,3 +7,4 @@ IUserRepository userRepository = new UserRepository(appDbContext);
 using var unitOfWork = new UnitOfWork(userRepository);
 
 unitOfWork.Work();
+Console.WriteLine("Viva il cazzo");
